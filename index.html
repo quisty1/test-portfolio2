@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/site-icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="cursor"></div>
+  <div class="follower"></div>
+  <header>
+    <nav class="nav">
+      <div class="nav__container">
+        <div class="logo"><a href="#"><img src="img/logo.svg" alt="Portfolio"></a></div>
+        <div class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item link"><a href="#about">About</a></li>
+            <li class="menu__list-item link"><a href="#projects">Projects</a></li>
+            <li class="menu__list-item link"><a href="#reviews">Reviews</a></li>
+            <li class="menu__list-item link"><a href="#contact">Contacts</a></li>
+          </ul>
+        </div>
+        <div class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <div class="header">
+      <div class="header__container">
+        <div class="header__item">
+          <h1 class="header__title">Michael Scofield</h1>
+          <h2 class="header__subtitle">Fullstack web developer</h2>
+          <div class="info">
+            <div class="info__item">UI / UX Design</div>
+            <div class="info__item">QA Testing</div>
+            <div class="info__item">Mobile Apps</div>
+            <div class="info__item">Web development</div>
+          </div>
+        </div>
+        <div class="header__item canvas__item">
+          <canvas id="canvasOne" width="550" height="550">
+            Your browser does not support HTML5 canvas.
+          </canvas>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="about" id="about">
+      <div class="about__container">
+        <h4 class="about__subtitle">About</h4>
+        <h3 class="about__title">History of my development:</h3>
+        <div class="about__blocks">
+          <div class="about__block">
+            <div class="about__num">2015</div>
+            <div class="about__description">First project. Blog for the teacher</div>
+          </div>
+          <div class="about__block">
+            <div class="about__num">2016</div>
+            <div class="about__description">Development of the first mobile application</div>
+          </div>
+          <div class="about__block">
+            <div class="about__num">2017</div>
+            <div class="about__description">The portfolio includes over 100 projects</div>
+          </div>
+          <div class="about__block">
+            <div class="about__num">2018</div>
+            <div class="about__description">First international project</div>
+          </div>
+          <div class="about__block">
+            <div class="about__num">2019</div>
+            <div class="about__description">Launching a personal web development course</div>
+          </div>
+          <div class="about__block">
+            <div class="about__num">2020+</div>
+            <div class="about__description">Started working in Google</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="projects__container">
+        <h4 class="projects__subtitle">Projects</h4>
+        <h3 class="projects__title">100+ projects on different topics:</h3>
+        <div id="tabs">
+          <div class="tab__wrapper">
+            <div class="tab tab-active">Blogs</div>
+            <div class="tab">CRM</div>
+            <div class="tab">Educational platform</div>
+            <div class="tab">Banking applications</div>
+            <div class="tab">Mobile applications</div>
+            <div class="tab">Mobile games</div>
+            <div class="tab">Social networks</div>
+          </div>
+          <div class="tabContent">
+            <div class="tab-content__l">
+              <div class="tab__title">Blogs</div>
+            </div>
+            <div class="tab-content__r">
+              <div class="accordion__item">
+                <button class="accordion active">Blog 1</button>
+                <div class="panel show">
+                  <a href="#">some kind of link to the site</a>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion">Blog 2</button>
+                <div class="panel">
+                  <a href="#">some kind of link to the site</a>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion">Blog 3</button>
+                <div class="panel">
+                  <a href="#">some kind of link to the site</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tabContent">
+            <div class="tab-content__l">
+              <div class="tab__title">CRM</div>
+            </div>
+            <div class="tab-content__r">
+              <div class="accordion__item">
+                <button class="accordion active">Blog 1</button>
+                <div class="panel show">
+                  <a href="#">some kind of link to the site</a>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion">Blog 2</button>
+                <div class="panel">
+                  <a href="#">some kind of link to the site</a>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion">Blog 3</button>
+                <div class="panel">
+                  <a href="#">some kind of link to the site</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tabContent">
+            <div class="tab-content__l">
+              <div class="tab__title">Educational platform</div>
+            </div>
+            <div class="tab-content__r">
+              <div class="accordion__item">
+                <button class="accordion active">Blog 1</button>
+                <div class="panel show">
+                  <a href="#">some kind of link to the site</a>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion">Blog 2</button>
+                <div class="panel">
+                  <a href="#">some kind of link to the site</a>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion">Blog 3</button>
+                <div class="panel">
+                  <a href="#">some kind of link to the site</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tabContent">
+            <div class="tab-content__l">
+              <div class="tab__title">Banking applications</div>
+            </div>
+            <div class="tab-content__r">
+              <div class="accordion__item">
+                <button class="accordion active">Blog 1</button>
+                <div class="panel show">
+                  <a href="#">some kind of link to the site</a>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion">Blog 2</button>
+                <div class="panel">
+                  <a href="#">some kind of link to the site</a>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion">Blog 3</button>
+                <div class="panel">
+                  <a href="#">some kind of link to the site</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tabContent">
+            <div class="tab-content__l">
+              <div class="tab__title">Mobile applications</div>
+            </div>
+            <div class="tab-content__r">
+              <div class="accordion__item">
+                <button class="accordion active">Blog 1</button>
+                <div class="panel show">
+                  <a href="#">some kind of link to the site</a>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion">Blog 2</button>
+                <div class="panel">
+                  <a href="#">some kind of link to the site</a>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion">Blog 3</button>
+                <div class="panel">
+                  <a href="#">some kind of link to the site</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tabContent">
+            <div class="tab-content__l">
+              <div class="tab__title">Mobile games</div>
+            </div>
+            <div class="tab-content__r">
+              <div class="accordion__item">
+                <button class="accordion active">Blog 1</button>
+                <div class="panel show">
+                  <a href="#">some kind of link to the site</a>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion">Blog 2</button>
+                <div class="panel">
+                  <a href="#">some kind of link to the site</a>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion">Blog 3</button>
+                <div class="panel">
+                  <a href="#">some kind of link to the site</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tabContent">
+            <div class="tab-content__l">
+              <div class="tab__title"> Social networks</div>
+            </div>
+            <div class="tab-content__r">
+              <div class="accordion__item">
+                <button class="accordion active">Blog 1</button>
+                <div class="panel show">
+                  <a href="#">some kind of link to the site</a>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion">Blog 2</button>
+                <div class="panel">
+                  <a href="#">some kind of link to the site</a>
+                </div>
+              </div>
+              <div class="accordion__item">
+                <button class="accordion">Blog 3</button>
+                <div class="panel">
+                  <a href="#">some kind of link to the site</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact__container">
+        <div class="contact__title">Write to me and I will answer within the next 24 hours</div>
+        <div class="contact__btn link" id="open-modal">Discuss the project</div>
+        <div id="modal-window">
+          <div class="modal-content">
+            <svg width="10" height="10" viewBox="0 0 10 10" id="close-modal" class="link"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M6.10138 5.00048L9.84024 1.26146C9.94309 1.15853 9.99984 1.02122 10 0.874793C10 0.728289 9.94325 0.590809 9.84024 0.488045L9.5126 0.160484C9.40959 0.0573128 9.27228 0.000808716 9.12569 0.000808716C8.97935 0.000808716 8.84203 0.0573128 8.73902 0.160484L5.00016 3.89927L1.26114 0.160484C1.15829 0.0573128 1.02089 0.000808716 0.87439 0.000808716C0.728049 0.000808716 0.59065 0.0573128 0.487805 0.160484L0.16 0.488045C-0.0533333 0.701378 -0.0533333 1.04837 0.16 1.26146L3.89894 5.00048L0.16 8.73935C0.0570732 8.84244 0.000406504 8.97976 0.000406504 9.12618C0.000406504 9.2726 0.0570732 9.40992 0.16 9.51293L0.487724 9.84049C0.590569 9.94358 0.728049 10.0002 0.874309 10.0002C1.02081 10.0002 1.15821 9.94358 1.26106 9.84049L5.00008 6.10162L8.73894 9.84049C8.84195 9.94358 8.97927 10.0002 9.12561 10.0002H9.12577C9.27219 10.0002 9.40951 9.94358 9.51252 9.84049L9.84016 9.51293C9.94301 9.41 9.99976 9.2726 9.99976 9.12618C9.99976 8.97976 9.94301 8.84244 9.84016 8.73943L6.10138 5.00048Z" />
+            </svg>
+
+            <h3 class="modal__title">Contact me:</h3>
+            <div class="modal-input__wrapper">
+              <input type="text" class="modal__input" placeholder="Name">
+              <textarea class="modal__input modal__textarea" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="modal__submit-btn link">Discuss the project</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="reviews" id="reviews">
+      <div class="reviews__container">
+        <h4 class="reviews__subtitle">Reviews</h4>
+        <h3 class="reviews__title">What my clients say about me:</h3>
+        <div class="reviews__slider">
+          <div class="arrows">
+            <div class="arrow__btn arrow-prev"><img class="img-arrow__prev" src="img/slider left arrow.svg" alt="">
+            </div>
+            <div class="arrow__btn arrow-next"><img class="img-arrow__next" src="img/slider right arrow.svg" alt="">
+            </div>
+          </div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="slide__img"><img src="img/slide-1.png" alt=""></div>
+                <div class="slide__title">Lincoln Burrows</div>
+                <div class="slide__description">Thanks to Michael for doing everything efficiently on time and without
+                  broaches. I recommend this specialist for work. Special thanks to Michael for the work that was not
+                  included in the original.</div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide__img"><img src="img/slide-2.png" alt=""></div>
+                <div class="slide__title">Gretchen Morgan</div>
+                <div class="slide__description">Thank you very much for your work, the project was completed very
+                  quickly and efficiently. I recommend it as a reliable performer! I will contact you in the future.
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide__img"><img src="img/slide-3.png" alt=""></div>
+                <div class="slide__title">Paul Kellerman</div>
+                <div class="slide__description">The performer who specifically understands the task. Very cool and easy
+                  to communicate. I did an excellent job, I will contact you. I advise everyone!</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__item">
+        <form action="" class="form">
+          <div class="form__title">Calculate the timing and cost of your project</div>
+          <div class="form__subtitle">Leave your phone number for communication</div>
+          <input type="text" class="form__input" placeholder="Name">
+          <input type="tel" class="form__input" placeholder="Phone">
+          <textarea class="form__textarea" placeholder="Message"></textarea>
+          <button class="form__btn link">Discuss the project</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
